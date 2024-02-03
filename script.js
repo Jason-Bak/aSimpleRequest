@@ -29,6 +29,6 @@ animate();
 
 window.addEventListener('keypress', function(e) {
     if(e.key === 'Enter') {
-        window.location.href = "letter.html";
+        window.location.href = "html/letter.html";
     }
 });
