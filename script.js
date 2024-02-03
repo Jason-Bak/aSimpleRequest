@@ -29,6 +29,6 @@ animate();
 
 window.addEventListener('keypress', function(e) {
     if(e.key === 'Enter') {
-        window.location.href = "https://jason-bak.github.io/Users/jasonbak/Desktop/Valentines%20Day%20Website/html/letter.html";
+        window.location.href = "/html/letter.html";
     }
 });
