@@ -28,5 +28,5 @@ function animate() {
 animate();
 
 window.addEventListener('click', function() {
-    window.location.href = "html/letter.html";
+    window.location.href = "https://jason-bak.github.io/aSimpleRequest/html/letter.html";
 });
