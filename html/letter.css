@@ -1,5 +1,18 @@
 body {
+    background-image: url("af8ebffcd807bbdf67c925a032da2925.jpg");
     font-family: cursive;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+#msg {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    font-family: monospace;
+    font-size:30px;
+    color:black;
+    text-align: center;
 }
 #letter {
     border:3px solid black;
@@ -10,6 +23,7 @@ body {
     width:80%;
     padding:30px;
     height:800px;
+    visibility: hidden;
 }
 .spec {
     text-align: center;
