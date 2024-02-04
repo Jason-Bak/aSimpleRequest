@@ -27,8 +27,6 @@ function animate() {
 };
 animate();
 
-window.addEventListener('keypress', function(e) {
-    if(e.key === 'Enter') {
-        window.location.href = "html/letter.html";
-    }
+window.addEventListener('click', function() {
+    window.location.href = "/Users/jasonbak/Desktop/Valentines Day Website/html/letter.html";
 });
